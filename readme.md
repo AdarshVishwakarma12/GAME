@@ -5,6 +5,43 @@ Welcome to the **Python Games Repository**! This project contains two exciting g
 ## Requirements
 
 - Python 3.7 or later
-- Required libraries (install via pip):
+- Pygame (for Chess)
+
+## How to RUN
+
+1. Clone the repository:
+
   ```bash
-  cd Chess && pip install -r requirements.txt
+  git clone https://github.com/adarshvishwakarma12/GAME.git
+  ```
+
+2. Create Virtual Enviornment:
+  ```bash
+  python -m venv Env
+  ```
+
+3. Activate Virtual Enviornment:
+    - for windows:
+    ```bash
+    Env\Script\activate
+    ```
+    - for linux:
+    ```bash
+    Env/Script/activate
+    ```
+
+4. Install Required Dependency:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+5. Run the Desired Game:
+    - Tic Tac Toe:
+    ```bash
+    python TicTacToe/main.py
+    ```
+
+    - Chess:
+    ```bash
+    python Chess/main.py
+    ```
