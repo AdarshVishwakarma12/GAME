@@ -27,7 +27,7 @@ Welcome to the **Python Games Repository**! This project contains two exciting g
     ```
     - for linux:
     ```bash
-    Env/Script/activate
+    source Env/Script/activate
     ```
 
 4. Install Required Dependency:
